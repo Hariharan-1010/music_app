@@ -27,12 +27,14 @@ header {
     background-color: #000;
     width: 20%;
 }
-.option > a {
+.option > button {
     text-decoration: none;
     color: #fff;
     font-weight: 300;
     font-size: medium;
-    font-family: sans-serif
+    font-family: sans-serif;
+    background-color: #000;
+    border: none;
 }
 #logo-image {
     height: 40px;

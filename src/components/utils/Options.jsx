@@ -4,7 +4,7 @@ function Option(props){
     return(
         <>
             <div className = "option">
-                <a href={props.location} >{props.name}</a>
+                <button onClick={() => {props.funct(props.value)}}>{props.name}</button>
             </div>
         </>
     );
