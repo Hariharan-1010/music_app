@@ -5,6 +5,9 @@ function Explore(){
     return (
         <>
             <MusicCardContainer />
+            <MusicCardContainer />
+            <MusicCardContainer />
+            <MusicCardContainer />
         </>
     );
 }
