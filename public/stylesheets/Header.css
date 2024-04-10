@@ -27,7 +27,7 @@ header {
     background-color: #000;
     width: 20%;
 }
-.option > button {
+.option > a {
     text-decoration: none;
     color: #fff;
     font-weight: 300;
