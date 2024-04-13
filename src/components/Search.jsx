@@ -1,9 +1,12 @@
 import React  from 'react';
+import SearchBox from './utils/SearchBox';
+import SearchResult from './utils/SearchResult';
 
 function Search() {
     return (
         <>
-            <p>Hello From Search</p>
+            <SearchBox />
+            <SearchResult />
         </>
     );
 }

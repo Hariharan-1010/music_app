@@ -1,0 +1,17 @@
+.search-box{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box{
+    border-radius: 15px;
+    height: 40px;
+    width: 80%;
+    resize: none;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: #ddd;
+    
+}
