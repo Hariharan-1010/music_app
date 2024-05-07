@@ -4,10 +4,10 @@ import MusicCardContainer from './utils/MusicCardContainer';
 function Explore(){
     return (
         <>
-            <MusicCardContainer />
-            <MusicCardContainer />
-            <MusicCardContainer />
-            <MusicCardContainer />
+            <MusicCardContainer playlist="most_listened" playlistTitle="Most Listened" />
+            <MusicCardContainer playlist="PLAYLIST" />
+            <MusicCardContainer playlist="PLAYLIST" />
+            <MusicCardContainer playlist="PLAYLIST" />
         </>
     );
 }
